@@ -1,0 +1,1 @@
+__pycache__/\n.pytest_cache/\n.venv/\n.mypy_cache/\n.ruff_cache/\n.DS_Store\ndist/\nbuild/\n*.egg-info/\n.idea/\n.vscode/\n.coverage\nhtmlcov/\n
