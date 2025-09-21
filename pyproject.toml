@@ -1,0 +1,34 @@
+[project]
+name = "pypi-mcp-server"
+version = "0.1.0"
+description = "Local MCP server exposing Python package ecosystem awareness"
+readme = "README.md"
+authors = [{name="Your Name", email="you@example.com"}]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+  "mcp[cli]>=1.0.0",
+  "packaging>=24.0",
+  "httpx>=0.27",
+  "beautifulsoup4>=4.12",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2",
+  "responses>=0.25",
+]
+
+[project.urls]
+Homepage = "https://example.com/pypi-mcp-server"
+
+[project.scripts]
+pypi-mcp-server = "mcp_server.server:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["mcp_server"]
