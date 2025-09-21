@@ -27,7 +27,7 @@ A Model Context Protocol (MCP) server that provides AI coding agents with compre
 1. **Clone and navigate to the repository**:
 ```bash
 git clone <repository-url>
-cd pypi-mcp-server
+cd pypi-packages-mcp-server
 ```
 
 2. **Create and activate virtual environment**:
@@ -100,7 +100,7 @@ To use this server with an MCP client (like Claude Desktop), add the following c
 {
   "servers": {
     "pypi-mcp-server": {
-      "command": "C:\\path\\to\\your\\pypi-mcp-server\\run-mcp.bat",
+      "command": "C:\\path\\to\\your\\pypi-packages-mcp-server\\run-mcp.bat",
       "args": [],
       "disabled": false,
       "autoApprove": []
@@ -114,7 +114,7 @@ To use this server with an MCP client (like Claude Desktop), add the following c
 {
   "servers": {
     "pypi-mcp-server": {
-      "command": "/path/to/your/pypi-mcp-server/run-mcp.sh",
+      "command": "/path/to/your/pypi-packages-mcp-server/run-mcp.sh",
       "args": [],
       "disabled": false,
       "autoApprove": []
@@ -130,7 +130,7 @@ To use this server with an MCP client (like Claude Desktop), add the following c
 {
   "servers": {
     "pypi-mcp-server": {
-      "command": "D:\\path\\to\\your\\pypi-mcp-server\\run-mcp.bat",
+      "command": "D:\\path\\to\\your\\pypi-packages-mcp-server\\run-mcp.bat",
       "args": []
     }
   }
@@ -142,7 +142,7 @@ To use this server with an MCP client (like Claude Desktop), add the following c
 {
   "servers": {
     "pypi-mcp-server": {
-      "command": "/path/to/your/pypi-mcp-server/run-mcp.sh",
+      "command": "/path/to/your/pypi-packages-mcp-server/run-mcp.sh",
       "args": []
     }
   }
