@@ -15,6 +15,8 @@ A Model Context Protocol server that gives AI agents intelligent Python package 
 
 **Key Innovation**: Spec-driven development approach where precise specifications become executable code
 
+> **Track Alignment (IEEE):** **Business Productivity** — A developer-productivity tool that helps AI coding agents by automating dependency insight, preventing version conflicts, and providing context-aware responses with up-to-date package data. *(Also fits the Main Track as an open-ended AI tool with clear real-world value.)*
+
 ## Slide 2: Technical Implementation
 
 ### Core Features Built
