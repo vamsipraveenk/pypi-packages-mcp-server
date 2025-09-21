@@ -106,7 +106,7 @@ class PyPIClient:
     def __init__(self, timeout: float = 10.0):
         self._client = httpx.Client(
             timeout=timeout,
-            headers={"User-Agent": "pypi-mcp-server/0.1"},
+            headers={"User-Agent": "pypi-packages-mcp-server/0.1"},
         )
 
     def _get_json(self, url: str) -> Dict[str, Any]:

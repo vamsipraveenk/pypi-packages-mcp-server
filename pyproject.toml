@@ -1,5 +1,5 @@
 [project]
-name = "pypi-mcp-server"
+name = "pypi-packages-mcp-server"
 version = "0.1.0"
 description = "Local MCP server exposing Python package ecosystem awareness"
 readme = "README.md"
@@ -20,10 +20,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://example.com/pypi-mcp-server"
+Homepage = "https://example.com/pypi-packages-mcp-server"
 
 [project.scripts]
-pypi-mcp-server = "mcp_server.server:main"
+pypi-packages-mcp-server = "mcp_server.server:main"
 
 [build-system]
 requires = ["setuptools>=68", "wheel"]
