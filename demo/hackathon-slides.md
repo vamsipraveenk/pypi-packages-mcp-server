@@ -26,6 +26,8 @@ A Model Context Protocol server that gives AI agents intelligent Python package 
 - **check_package_compatibility**: Version conflict detection
 - **get_latest_version**: Latest version lookup with prerelease handling
 
+> Documentation as Context: Well-authored PyPI READMEs / long descriptions provide high-signal context so new APIs become immediately discoverable to AI coding agents.
+
 ### Tech Stack
 - **MCP Framework**: Model Context Protocol implementation
 - **httpx**: Modern async HTTP client for PyPI APIs
