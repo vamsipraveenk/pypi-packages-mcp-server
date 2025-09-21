@@ -1,4 +1,4 @@
-# Python Package MCP Server
+# Python Packages MCP Server
 
 A Model Context Protocol (MCP) server that provides AI coding agents with comprehensive awareness of Python package ecosystems. It enables:
 
