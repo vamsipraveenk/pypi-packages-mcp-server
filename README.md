@@ -3,7 +3,7 @@
 A Model Context Protocol (MCP) server that provides AI coding agents with comprehensive awareness of Python package ecosystems. It enables:
 
 - **Project Analysis**: Extract and analyze dependencies from `requirements.txt`, `pyproject.toml`, `Pipfile`, and basic `setup.py` files
-- **Package Metadata**: Retrieve comprehensive package information from local installations (via `importlib.metadata`) or PyPI (fallback)
+- **Package Metadata**: Retrieve comprehensive package information such as README from local installations (via `importlib.metadata`) or PyPI (fallback)
 - **Package Discovery**: Search PyPI for packages by functionality and keywords (best-effort HTML scraping)
 - **Compatibility Checking**: Verify if new packages are compatible with existing project dependencies
 - **Version Management**: Get latest package versions with prerelease support
